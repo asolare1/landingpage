@@ -13,10 +13,15 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<React.Fragment>
-			<NavBar></NavBar>
-			<Jumbotron></Jumbotron>
-			<Cards></Cards>
-			<Footer></Footer>
+			<NavBar/>
+			<Jumbotron/>
+			<div class="row">
+			<Cards title="card 1" cardtext="card 1 text" btnurl="#" btntitle="Button name" />
+			<Cards title="card 2" cardtext="card 2 text" btnurl="#" btntitle="Button name" />
+			<Cards title="card 3" cardtext="card 3 text" btnurl="#" btntitle="Button name" />
+			<Cards title="card 4" cardtext="card 4 text" btnurl="#" btntitle="Button name" />
+			</div>
+			<Footer/>
 		</React.Fragment>
 
 
