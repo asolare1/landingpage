@@ -14,7 +14,7 @@ const Home = () => {
 	return (
 		<React.Fragment>
 			<NavBar/>
-			<Jumbotron/>
+			<Jumbotron title="Jumbotron Title" text="Jumbotron Text" btn="Jumbotron Button" btnurl="#" />
 			<div class="row">
 			<Cards title="card 1" cardtext="card 1 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
 			<Cards title="card 2" cardtext="card 2 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
