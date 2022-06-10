@@ -16,10 +16,10 @@ const Home = () => {
 			<NavBar/>
 			<Jumbotron/>
 			<div class="row">
-			<Cards title="card 1" cardtext="card 1 text" btnurl="#" btntitle="Button name" />
-			<Cards title="card 2" cardtext="card 2 text" btnurl="#" btntitle="Button name" />
-			<Cards title="card 3" cardtext="card 3 text" btnurl="#" btntitle="Button name" />
-			<Cards title="card 4" cardtext="card 4 text" btnurl="#" btntitle="Button name" />
+			<Cards title="card 1" cardtext="card 1 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
+			<Cards title="card 2" cardtext="card 2 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
+			<Cards title="card 3" cardtext="card 3 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
+			<Cards title="card 4" cardtext="card 4 text" btnurl="#" btntitle="Button name" imgurl="https://picsum.photos/200" />
 			</div>
 			<Footer/>
 		</React.Fragment>

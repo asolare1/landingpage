@@ -7,7 +7,7 @@ const Cards = (props) => {
         
   <div class="col">
     <div class="card h-100">
-      <img src="https://picsum.photos/200" class="card-img-top" alt="..."></img>
+      <img src={props.imgurl}></img>
       <div class="card-body">
         <h5 class="card-title">{props.title}</h5>
         <p class="card-text">{props.cardtext}</p>
